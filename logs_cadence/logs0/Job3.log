@@ -1,0 +1,89 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = GM-ID
+	Cell         = GM-ID
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = GM-ID:GM-ID:1_none_Interactive.1
+	Results DB   = /home/cadence/Desktop/Projects/GM-ID/GM#2dID/GM#2dID/adexl/results/data/Interactive.1.rdb
+	Results Dir  = /home/cadence/simulation/GM-ID/GM-ID/adexl/results/data/Interactive.1/1/GM-ID:GM-ID:1
+	Results Loc  = /home/cadence/simulation/GM-ID/GM-ID/adexl/results/data
+	Project Dir  = /home/cadence/simulation
+	Setup DB loc = /home/cadence/Desktop/Projects/GM-ID/GM#2dID/GM#2dID/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (1 1) on testbench [ GM-ID:GM-ID:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var L = "1u"
+Setting var VDS = "0.3"
+Setting var VGS = "1"
+Setting var W = "10u"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/GM-ID/GM-ID/adexl/results/data/Interactive.1/1/GM-ID:GM-ID:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/GM-ID/GM-ID/adexl/results/data/Interactive.1/1/GM-ID:GM-ID:1
+
+
+*Info*    Creating Netlist for Point ID (1 1)
+
+generate netlist...
+Begin Incremental Netlisting Jul 29 00:22:10 2025
+End netlisting Jul 29 00:22:10 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ GM-ID:GM-ID:1 ] for Point
+          ID (1 1).
+
+Delete psf data in /home/cadence/simulation/GM-ID/GM-ID/adexl/results/data/Interactive.1/1/GM-ID:GM-ID:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+Only symbol and string results name are supported in this function!Only symbol and string results name are supported in this function!Only symbol and string results name are supported in this function!Only symbol and string results name are supported in this function!Only symbol and string results name are supported in this function!Only symbol and string results name are supported in this function!Only symbol and string results name are supported in this function!Only symbol and string results name are supported in this function!
+*Info*    Run complete for Point ID (1 1) on testbench [
+          GM-ID:GM-ID:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

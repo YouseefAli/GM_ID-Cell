@@ -1,0 +1,138 @@
+\# Program start time UTC 2025.07.29 04:11:53.784
+\# Local time Tuesday 29 July 2025, 12:11 am
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 11/09/2015 12:45 (sjfnl165) $
+\o Hierarchy:		/usr/local/cadence/IC617/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.78  (64-bit addresses)
+\# Command line:	/usr/local/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso23956 -mpshost berkeley -davinciService DaVinciService_23956_1753762309 -log /home/cadence/Desktop/Projects/GM-ID/logs_cadence/logs0/Job0.log -licenseLockFileName /home/cadence/Desktop/Projects/GM-ID/.tmp_cadence/.berkeley_23956 -nograph -nostdin -axlChildIdFlag 0
+\# Host name (type):	berkeley (x86_64)
+\# Operating system:	Linux 3.16.0-4-amd64 #1 SMP Debian 3.16.36-1+deb8u2 (2016-10-19)
+\# Linux /etc/issue:	Debian GNU/Linux 8 \n \l
+\# X display name (WxH):	berkeley:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 26683)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        352 MB
+\# Available memory:	     10,747 MB
+\# System memory:	     12,083 MB
+\# Maximum memory size:	     11,812 MB
+\# Max mem available:	     10,827 MB
+\# Initial memory used:	         80 MB
+\#        process size:	        890 MB
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		cadence
+\o Working Directory:	berkeley:/home/cadence/Desktop/Projects/GM-ID
+\# Process Id:		26694
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o END OF USER CUSTOMIZATION
+\o //
+\o //  Calibre Skill Interface * (v2014.1_17.12) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\# Memory report: using         197 MB, process size 1,139 MB at UTC 2025.07.29 04:11:55.063
+\o Sonnet:  The Sonnet directory is "/usr/local/sonnet"
+\o //  Could not initialize Calibre layout-server socket on at berkeley.localdomain:9189. Trying to find free socket ...
+\o //  Calibre layout-server initialized successfully at socket 5000, host berkeley.localdomain.
+\w *WARNING* (DB-220704): The Pcell super master: MentorObserverLib/MentorObserver_master/layout is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-270000): dbOpenCellViewByType: Locking of follower DMFile is not permitted.
+\o Starting Calibre server...
+\o Calibre server connected, Client version = 1.18.1 Server version = 1.18.1
+\o //  Calibre v2014.1_17.12    Thu Feb 27 15:53:54 PST 2014
+\o //
+\o //        Copyright Mentor Graphics Corporation 1996-2014
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //   This software is in pre-production form and is considered to be 
+\o //   beta code that is subject to the terms of the current Mentor 
+\o //   Graphics End-User License Agreement or your signed agreement 
+\o //   with Mentor Graphics that contains beta terms, whichever applies.
+\o // 
+\o Calibre server launched successfully
+\o //  Calibre RealTime embedded client initialized successfully at berkeley.localdomain:5000
+\o //  Calibre RealTime: Initialization complete
+\o * -------------------------------- Sonnet Cadence Virtuoso Interface --------------------------------
+\o * VERSION exe: 16.52
+\o * VERSION cxt: 16.52
+\o * initializing...
+\o * sonnet cadence environment variables are loaded and registered...
+\o * sonnet application of type maskLayoutSonnet is registered in maskLayout...
+\o * bindkeys are inherited from maskLayout...
+\o * all menus including user menus are inherited from maskLayout...
+\o * all forms are created ...
+\o * symbolic link "sonnet" created in "/home/cadence/doc"...
+\o * sonnet online help is available...
+\o * --------------------------- End Sonnet Cadence Virtuoso Interface Setup ---------------------------
+\# Available memory:         10,545 MB at UTC 2025.07.29 04:12:04.380
+\# Memory report: Maximum memory size now 10,752 MB at UTC 2025.07.29 04:12:04.380
+\o Sonnet:  The Sonnet context file "/usr/local/sonnet/sonnet_virtuoso_dk/install/context/sonnet_virtuoso.cxt" was loaded and initialized.
+\o * ------------------------------------ Sonnet Symbol Model Utility ----------------------------------
+\o * VERSION il: DECORATED_VERSION
+\o * initializing...
+\o * sonnet application of type schematicSymbolSonnet is registered in schematicSymbol...
+\o * ------------------------------- End Sonnet Symbol Model Utility Setup -----------------------------
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\a _treeSetOpcGUI(t)
+\r t
+\o Job 0 timed out after no activity in 300 seconds.
+\w *WARNING* (DB-270040): dbFullLibPath: cannot open library MentorMessengerLib
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 
